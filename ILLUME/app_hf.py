@@ -706,7 +706,8 @@ def build_demo(embed_mode):
         # Register listeners
         btn_list = [regenerate_btn, clear_btn]
         parameter_chat_inputs = [temperature, top_k, top_p, max_output_tokens]
-        parameter_gen_edit_inputs = [image_gen_temperature, image_gen_top_k, image_gen_top_p, max_output_tokens,
+        parameter_gen_edit_inputs = [temperature, top_k, top_p,
+                                     image_gen_temperature, image_gen_top_k, image_gen_top_p, max_output_tokens,
                                      llm_cfg_scale, resolution_wh_dropdown,
                                      use_diffusion_checkbox, diffusion_cfg_scale, diffusion_num_inference_steps]
 
